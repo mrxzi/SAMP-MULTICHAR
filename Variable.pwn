@@ -1,0 +1,2 @@
+Text:JadenChar[32]
+TARUH DI BAGIAN VARIABLE
