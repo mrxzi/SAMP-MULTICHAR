@@ -43,20 +43,4 @@ stock HideJadenCharTextDraw(playerid)
 		TextDrawHideForPlayer(playerid, JadenChar[i]);
 	}
 	return 1;
-}
-stock UpdateCharacterInformationTD(playerid)
-{
-	if (CharacterList[playerid][SelectCharIndex[playerid]][0] == EOS)
-	{
-		PlayerTextDrawSetString(playerid, ChoseCharacterInformation[playerid][0], "_");
-	}
-	else
-	{
-		PlayerTextDrawSetString(playerid, ChoseCharacterInformation[playerid][0], sprintf("%s", CharacterList[playerid][SelectCharIndex[playerid]]));
-	}
-	ApplyAnimationSpawn(playerid, "ped", "SEAT_down", 4.1, 0, 0, 0, 1, 0);
-	return 1;
-}
 
-Text:JadenChar[32]
-TARUH DI BAGIAN VARIABLE
