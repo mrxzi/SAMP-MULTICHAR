@@ -29,14 +29,7 @@
 		SpawnPlayer(playerid);
 	}
 	return 1;
-}
 
-stock HideJadenCharTextDraw(playerid)
-{
-	forex(i, 1)
-	{
-		PlayerTextDrawHide(playerid, ChoseCharacterInformation[playerid][i]);
-	}
 
 	forex(i, 32)
 	{
